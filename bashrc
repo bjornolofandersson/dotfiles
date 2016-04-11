@@ -117,3 +117,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Disable default ctrl-s behaviour so that we can use it for saving in vim
+bind -r '\C-s'
+stty -ixon

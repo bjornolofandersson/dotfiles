@@ -24,6 +24,10 @@ set expandtab
 let mapleader = ","
 inoremap jk <esc>`^
 
+" Save with ctrl-s
+nmap <c-s> :w<CR>
+imap <c-s> <Esc>:w<CR>a
+
 "--------------------------------------------------------------------------
 " Search settings
 "--------------------------------------------------------------------------
