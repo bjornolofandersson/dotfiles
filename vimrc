@@ -22,7 +22,7 @@ set expandtab
 " Setup keybindings
 "--------------------------------------------------------------------------
 let mapleader = ","
-"inoremap jk <esc>`^
+inoremap jk <esc>`^
 
 "--------------------------------------------------------------------------
 " Search settings
@@ -45,8 +45,8 @@ hi CursorLineNR ctermbg=5 ctermfg=7
 let g:airline_theme = 'gruvbox'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
-"let g:airline_enable_branch     = 1
-"let g:airline_enable_syntastic  = 1
+let g:airline_enable_branch = 1
+let g:airline_enable_syntastic = 1
 
 "--------------------------------------------------------------------------
 " CtrlP
