@@ -60,3 +60,8 @@ let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . -co --exclude-stand
 nnoremap <leader>b :CtrlPBuffer<CR>
 nnoremap <leader>f :CtrlP<CR>
 hi CtrlPLinePre ctermbg=235 ctermfg=250 guibg=#262626 guifg=#bcbcbc cterm=NONE gui=NONE
+
+"--------------------------------------------------------------------------
+" Markdown
+"--------------------------------------------------------------------------
+let g:vim_markdown_frontmatter = 1
