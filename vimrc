@@ -65,3 +65,10 @@ hi CtrlPLinePre ctermbg=235 ctermfg=250 guibg=#262626 guifg=#bcbcbc cterm=NONE g
 " Markdown
 "--------------------------------------------------------------------------
 let g:vim_markdown_frontmatter = 1
+
+"--------------------------------------------------------------------------
+" Auto commands
+"--------------------------------------------------------------------------
+
+" Automatically remove trailing whitespace on save
+autocmd BufWritePre *.* :%s/\s\+$//e
