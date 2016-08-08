@@ -121,3 +121,6 @@ fi
 # Disable default ctrl-s behaviour so that we can use it for saving in vim
 bind -r '\C-s'
 stty -ixon
+
+# Gruvbox 256 color palette:
+~/.vim/gruvbox_256palette.sh
